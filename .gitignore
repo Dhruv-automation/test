@@ -1,0 +1,50 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv*/
+venv/
+env/
+ENV/
+
+# Test, type-check and build caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Local application data, tokens and generated media
+*.db
+*.sqlite
+*.sqlite3
+*.token
+token.json
+credentials.json
+data/
+media/generated/
+
+# Logs (keep directory structure only)
+logs/*
+!logs/.gitkeep
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
